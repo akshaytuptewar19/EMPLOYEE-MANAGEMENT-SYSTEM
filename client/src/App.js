@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import Axios from "axios";
+import Axios from "axios"; //great library used to access public apis
 
 function App() {
   const [name, setName] = useState("");
